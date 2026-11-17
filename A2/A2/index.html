@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Basic&family=Englebert&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+            <!--First screen-->
+            <section id="welcome">
+                <img src="assets/images/lotus_ChatGPT.gif"
+                width="800"
+                alt="Lotus flower">
+
+                <h1>Welcome.</h1>
+            </section>
+
+            <!--Second screen-->
+            <section id="question" class="hidden">
+                <h2>What brings you here?</h2>
+
+                <section class="paths">
+
+                    <a href="faith.html" class="path">
+                    <h2>Faith</h2>
+                    <p>To believe, to pray, to surrender.</p>
+                </a>
+
+                <a href="wisdom.html" class="path">
+                    <h2>Wisdom</h2>
+                    <p>To question, to understand, to reflect.</p>
+                </a>
+
+                <a href="letgo.html" class="path">
+                    <h2>Letting Go</h2>
+                    <p>To recognize, to release, to be free.</p>
+                </a>
+
+            </section>
+
+   
+    </main>    
+
+
+<script>
+    // Find the two sections
+    const welcome = document.getElementById("welcome");
+    const question = document.getElementById("question");
+
+    // When the visitor clicks the welcome screen
+    welcome.addEventListener("click", function() {
+
+        // Hide the first screen
+        welcome.classList.add("hidden");
+
+        // Show the second screen
+        question.classList.remove("hidden");
+
+    });
+</script>
+</body>
+</html>
+
+</body>
+
+</html>

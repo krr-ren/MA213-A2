@@ -1,0 +1,107 @@
+
+/* 1. Basic settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Page background */
+body {
+    background-color: #536a84;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* 3. Main layout */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* 4. Lotus image */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 5. Welcome title */
+h1 {
+    font-family: "Redaction 50", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-top: 20px;
+    color: white;
+}
+
+/* 6. Question title */
+h2 {
+    font-family: "Redaction 50", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* 7. Hide elements */
+.hidden {
+    display: none;
+}
+
+/* 8. Welcome section */
+#welcome {
+    cursor: pointer;
+}
+
+/* 9. Choices layout */
+.choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* 10. Choice buttons */
+button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* 11. Button hover effect */
+button:hover {
+    opacity: 0.6;
+}
+
+/* Space between the three paths */
+.paths {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+/* Space between title and description */
+.path h2 {
+    margin-bottom: 20px;
+}
+
+main > h1 {
+    margin-bottom: 60px;
+}
+
+.ending-image {
+    margin-bottom: 40px;
+}
